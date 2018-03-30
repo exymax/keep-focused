@@ -5,9 +5,9 @@ export default class Menu extends Component {
         return (
             <div className='menu-wrapper'>
                 <ul className='menu'>
-                    <li>Timers</li>
-                    <li>Users</li>
-                    <li>My account</li>
+                    <li><a href='/timers'>Timers</a></li>
+                    <li><a href='/users'>Users</a></li>
+                    <li><a href='/account'>My account</a></li>
                 </ul>
             </div>
         );
